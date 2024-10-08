@@ -1,0 +1,120 @@
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-top: 20px;
+        }
+        header h1 {
+            margin: 10px 0 5px 0;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            background-color: chocolate;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    
+    .two{
+        background-color: rgb(2, 58, 11) !important;
+    }
+    .two{
+        background-color: rgb(28, 174, 50) ;
+            }
+
+
+            body {
+                font-family: Arial, sans-serif;
+            }
+            
+            .title {
+                text-align: center;
+                margin: 20px 0;
+            }
+            
+            table {
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: collapse;
+            }
+            
+            table, th, td:ho {
+                border: 1px solid black;
+                background-color: aquamarine;
+            }
+            
+            th, td {
+                padding: 12px;
+                text-align: left;
+            }
+            
+            th {
+                background-color: #f2f2f2;
+            }
+            
+            tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+            
+        #form{
+            background-color: #444;
+            color: #f2f2f2;
+            /* justify-self: center; */
+            padding-block: center;
+            padding-bottom: 100px;
+            /* align-items: center; */
+        
+        }
+        #container{
+            height: 400;
+            width: 500;
+
+        }
+        .container {
+            margin: 20px;
+        }
+        .photo {
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .id{
+            background-color: aqua;
+        }

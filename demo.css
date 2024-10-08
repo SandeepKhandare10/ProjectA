@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+#one{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
