@@ -1,31 +1,20 @@
-// alert("ok")
-// console.log("hello i am console")
-// document.write("I am document")
-document.getElementById("one").innerHTML="Hello world";
-// {
-//     var x=58;
-// }
-// // var x=30;
-// x=56;
-// console.log(x);
 
-// {
-//     let s=47;
-//     console.log(s)
-// }
-// {
-//     const c=67;
-//     console.log(c);
-// }
+// #myMarquee {
+//     // border: 1px solid black;
+// // }
 
 
-g=39;
-var g;
-console.log(g);
+let marquee = document.getElementById('myMarquee');
+marquee.style.border = "1px solid black";
+marquee.style.height = '50px';
+marquee.style.width = '1500px';
+marquee.direction = 'right'; // You can set 'left', 'right', 'up', or 'down'
 
-v=37;
-var v;
+// const input = prompt();
+// const num = parseInt(input);
 
-{ 
-    console.log(v)
-}
+var num=38964;
+var revNum = num.toString().split('').reverse().join('');
+
+console.log(revNum)
+
