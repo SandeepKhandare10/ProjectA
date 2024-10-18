@@ -1,0 +1,39 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"], input[type="number"] {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+        height: 40px;
+        background-color: #28b32d;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #28ce2d;
+    }
+
+    .error {
+    color: #ff0000;
+    font-size: 12px;
+}
