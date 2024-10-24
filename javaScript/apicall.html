@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form onsubmit="submit()" method="get">
+<input type="text" id="city" placeholder="Enter city name">
+<input type="text" id="country" placeholder="Enter country name">
+</form>
+<!-- <button onclick="API_Call()">click me</button> -->
+<h2 id="one"></h2>
+<button id="api-button" onclick="API_Call()">Click me</button>
+
+<script>
+  var apiData = []
+  var paraEle = document.getElementById("one");
+  var pData = document.createElement('p');
+const city=document.getElementById("")
+  function API_Call() {
+    fetch("http://api.openweathermap.org/data/2.5/weather?q=${city},${country},India&appid=d219fdc42ae080207ec6b2803e9bc622&units=metric")
+    .then((data) => data.json())
+    .then((data) => {
+      apiData = data;
+      Display();
+    })
+    .catch((err) => console.log(err));
+  }
+
+  function Display(){
+    console.log(apiData)
+    paraEle.appendChild(pData);
+    pData.innerHTML = apiData["main"]["temp"]+" "+apiData["main"]["humidity"];
+  }
+</script>
