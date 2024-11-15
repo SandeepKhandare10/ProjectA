@@ -35,7 +35,7 @@ function Navbar({name}) {
       <div style={styles.logo}>{name}</div>
       <ul style={styles.navLinks}>
         <li>
-          <a href="#home" style={styles.navLink}>Home</a>
+          <a href="#home" style={styles.navLink}>{name}</a>
         </li>
         <li>
           <a href="#about" style={styles.navLink}>About</a>
